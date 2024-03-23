@@ -1,10 +1,10 @@
 # LCS-papier
 # for Linux
-# You made nned to build Krimp if that's the case go into Krimp/trunks and execute following commands line
+# You may need to build Krimp if that's the case go into Krimp/trunks and execute following commands line
 ./bootstrap.sh
 make -Cbuild install
 
-
+#if Res and experiments aren't directory please make them
 # Then to execute the code from the LCS-papier directory
 # c the number of transactions, n the number of sample that we will do and f the threshold 
 python3 launch.py {database-name} {c} {n} {f}

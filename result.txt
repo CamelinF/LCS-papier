@@ -1,0 +1,52 @@
+ ---------------------------------- FIC mkIII ---------------------------------
+
+** Processing conf: 'fic.conf'
+ * Verbosity:		3
+ * Max Mem Usage:	8192mb
+ * Priority:		Ya man, i and i gonna take it easy, man...
+ * Threaded:		using 4 threads
+
+** Database :: 
+ * File:		hepatitis.db
+ * Reading header:	in progress... * Reading header:	done.         
+ * Standard lengths:	computing... * Standard lengths:	computed.   
+ * Standard db size:	27351.356257
+ * Database:		137t 137r, 4658i, 27351.36bits
+ * 			pruned below support 0, maximum set length 34
+ * Alphabet:		68 items
+ * Internal datatype:	128bit bitmap
+ * Reading data:	in progress... * Reading data:	done          
+** Finished reading database.
+
+** ItemSetCollection ::
+ * Retrieved:		hepatitis-closed-2d.isc
+ * # Sets:		14 (hd)
+
+** Compression :: 
+ * Initiating...
+ * Experiment tag	hepatitis-closed-2d-pop-20240323075833
+ * Algorithm:		coverpartial post-accept-prune
+ * Candidates:		14p
+ * Start:		(68a,0u,4658,27351,865,28216)
+ - Progress:		0% (0) 94335386536896 c/s
+
+ / Progress:		7% (1) 0 c/s
+ | Progress:		14% (2) 0 c/s
+ \ Progress:		21% (3) 0 c/s
+ - Progress:		28% (4) 2 c/s
+ / Progress:		35% (5) 3 c/s
+ | Progress:		42% (6) 2 c/s
+ | Progress:		50% (7) 0 c/s
+ \ Progress:		57% (8) 2 c/s
+ | Progress:		78% (11) 94335386535296 c/s
+ \ Progress:		85% (12) 16 c/s
+ * Parallel:		23 candidates had to be rechecked.
+ * Time:		Compressing the database took 0.001272 seconds.
+ * Result:		(68a,11u,3613,21779,2085,23864)
+
+** Finished compression.
+
+ * Check results in:	/home/camelinf/IdeaProjects/LCS-papier/experiments/hepatitis9/compress/
+
+Task `main`, command `compress` finished. This took 0 seconds.
+

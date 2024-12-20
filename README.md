@@ -2,7 +2,9 @@
 # for Linux
 # Building Krimp
 You may need to build Krimp if that's the case go into Krimp/trunks and execute following commands line :
+
 ./bootstrap.sh
+
 make -Cbuild install
 
 # Running the code

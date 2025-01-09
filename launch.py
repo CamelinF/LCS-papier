@@ -517,8 +517,8 @@ def main(dataFile,nbR,nbT,typeM,seuilF,dirCurr):
             #     ind=ensCTFC.index(i[0])
             #     print(f"{i},{ensCTFC[ind]}")
             if i<nbR-1:
-                #poidsT=newCalculPoidsD(data,tailleI,ensCT,tailleComp)
-                poidsT,timeCalcul=calculPoidsD(data,tailleI,ensCT,tailleComp)
+                poidsT=newCalculPoidsD(data,tailleI,ensCT,tailleComp)
+                #poidsT,timeCalcul=calculPoidsD(data,tailleI,ensCT,tailleComp)
                 tempsCP+=timeCalcul
             tempsCP+=time.time()-times
             if i==nbR-1:
